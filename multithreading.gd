@@ -2,11 +2,11 @@
 extends EditorPlugin
 
 
-func _enter_tree():
+func _enable_plugin():
 	# Initialization of the plugin goes here.
-	pass
+	add_autoload_singleton("MultiThreading","res://addons/multithreading/multithreading_system.tscn")
 
 
-func _exit_tree():
+func _disable_plugin():
 	# Clean-up of the plugin goes here.
-	pass
+	remove_autoload_singleton("MultiThreading")
