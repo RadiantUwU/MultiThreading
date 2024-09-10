@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvtq56idgqoie"]
+
+[ext_resource type="Script" path="res://addons/multithreading/multithreading_system.gd" id="1_lpeh1"]
+
+[node name="MultiThreadingSystem" type="Node"]
+script = ExtResource("1_lpeh1")
